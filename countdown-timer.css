@@ -37,7 +37,7 @@ header {
   margin: auto;
   margin-bottom: 5rem;
 }
-h1{
+h1 {
   font-family: "omyu_pretty";
 }
 main {
@@ -90,7 +90,7 @@ h5 {
   font-size: 1.2rem;
   width: fit-content;
   margin: auto;
-  padding:1rem;
+  padding: 1rem;
   color: #454545;
   background-color: #ffffffef;
   border-radius: 10px;
@@ -137,20 +137,20 @@ h5 {
   color: rgba(246, 77, 77, 0.858);
 }
 
-#seconds{
+#seconds {
   /* Initial styling */
   font-size: 8.25rem;
   /* Transition effect */
   transition: all 0.5s ease-in-out;
 }
-/* Class added when the content changes */ 
-.changed { 
+/* Class added when the content changes */
+.changed {
   font-size: 7.9rem !important;
   color: #f900b3;
 }
-.changed_timeover{
+.changed_timeover {
   font-size: 7.9rem !important;
-  color:  rgba(19, 19, 19, 0.689);
+  color: rgba(19, 19, 19, 0.689);
 }
 @media screen and (max-width: 980px) {
   header {
@@ -172,20 +172,20 @@ h5 {
   .display {
     font-size: 6.5rem;
   }
-  #seconds{
+  #seconds {
     /* Initial styling */
     font-size: 6.5rem;
     /* Transition effect */
     transition: all 0.5s ease-in-out;
   }
-  /* Class added when the content changes */ 
-  .changed { 
+  /* Class added when the content changes */
+  .changed {
     font-size: 6.1rem !important;
     color: #f900b3;
   }
-  .changed_timeover{
+  .changed_timeover {
     font-size: 6.1rem !important;
-    color:  rgba(19, 19, 19, 0.689);
+    color: rgba(19, 19, 19, 0.689);
   }
   .Div-p {
     position: absolute;
@@ -194,8 +194,6 @@ h5 {
     padding-bottom: 0.3rem;
     font-size: 1.2rem;
   }
-
-  
 }
 
 @media screen and (max-width: 825px) {
